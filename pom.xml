@@ -19,6 +19,7 @@
         <mapstruct-processor>1.4.2.Final</mapstruct-processor>
         <junit-jupiter-engine>5.9.0</junit-jupiter-engine>
         <springdoc-openapi-ui>1.6.10</springdoc-openapi-ui>
+        <mysql-connector-java>8.0.30</mysql-connector-java>
         <swagger-annotations>1.6.6</swagger-annotations>
         <junit-jupiter-api>5.9.0-M1</junit-jupiter-api>
         <mapstruct>1.5.2.Final</mapstruct>
@@ -128,6 +129,12 @@
             <artifactId>jjwt-jackson</artifactId>
             <version>0.11.5</version>
             <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql-connector-java}</version>
         </dependency>
     </dependencies>
 
